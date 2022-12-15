@@ -1,0 +1,8 @@
+{
+    "model_type": "custom_model",
+    "template_uri": "gs://vertex-testing-poc-123/customer_template/customer_script.ipynb",
+    "project_id": "project-for-sda-development",
+    "target_table": "dataset_test.df_creditscoring_poc",
+    "model_uri": "gs://vertex-testing-poc-123/pickle_files/knn.pkl",
+    "scaler_uri": "gs://vertex-testing-poc-123/pickle_files/scaler.pkl"
+}

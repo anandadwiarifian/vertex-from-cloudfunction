@@ -1,0 +1,12 @@
+{
+    "model_type": "generic_model_pyspark",
+    "project_id": "project-for-sda-development",
+    "pyspark_script": "gs://vertex-testing-poc-123/generic_lookalike/pyspark_script.py",
+    "custom_image_tag": "asia-southeast2-docker.pkg.dev/project-for-sda-development/dataproc-image/my-image:1.0.1",
+    "parameters": {
+        "source_table": "project-for-sda-development.dataset_test.audience_table",
+        "target_table": "project-for-sda-development.dataset_test.generic_lookalike_test",
+        "feature_list": "total_arpu,data_usage_in_mb,total_topups",
+        "msisdn_list": "1,2,3,4,5,6,7,8,9,10,27"        
+    }
+}

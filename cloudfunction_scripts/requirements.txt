@@ -7,4 +7,5 @@ ipykernel==6.17.1
 
 kfp==1.8.16
 google-cloud-aiplatform==1.19.0
+google-cloud-pipeline-components==1.0.29
 datetime
