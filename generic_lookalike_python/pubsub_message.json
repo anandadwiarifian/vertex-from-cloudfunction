@@ -1,0 +1,10 @@
+{
+    "organization_id": "customer_a",
+    "model_type": "generic_model_python",
+    "feature_list": ["age","tenure","total_arpu","data_usage_in_mb","data_usage_duration","total_topups",
+                 "number_of_topups_1m","total_topups_1m","total_usage_GB_1m","daily_GB_consumption_rate_1m","number_of_topups_2m",
+                  "total_topups_2m","total_usage_GB_2m","daily_GB_consumption_rate_2m","number_of_topups_3m","total_topups_3m","total_usage_GB_3m",
+                  "daily_GB_consumption_rate_3m"],
+    "max_msisdn_count": 100,
+    "msisdn_sample_path": "gs://vertex-testing-poc-123/heuristic_msisdn_seed/customer_a_msisdn_seed.csv"
+}
